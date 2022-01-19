@@ -6,7 +6,7 @@ import Dropdown from "./Dropdown";
 const Header = () => {
   const navigate = useNavigate()
   return (
-    <header className="flex bg-white justify-between items-center p-4 2xl:p-7 text-gray-900">
+    <header className="flex z-50 bg-white justify-between items-center p-4 2xl:p-7 text-gray-900">
       <img onClick={() => navigate('/',{replace: true})} className="w-20 2xl:w-24 h-auto cursor-pointer" src={logo} alt="logo" />
       <nav className="flex items-center">
         <ul>
