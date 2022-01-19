@@ -18,7 +18,7 @@ const Header = () => {
             <NavLink className={(navData) => navData.isActive ? "relative z-20 2xl:text-2xl mr-5 2xl:mr-7  before:w-[102%] before:-z-10 before:h-3 before:bg-[#FBDA63] before:absolute before:inset-0 before:top-3 before:skew-y-2"  : "mr-5 2xl:mr-7 2xl:text-2xl" } to="/sponsor">Sponsor</NavLink>
           </li>
         </ul>
-        <button className="bg-gray-900 text-[#BF1E1A] font-bold px-5 2xl:px-7 2xl:text-2xl py-2 2xl:py-4 ml-5 tracking-wide hover:bg-gray-600 active:scale-95 transition">Register</button>
+        <button className="bg-gray-900 text-[#FBDA63] font-bold px-5 2xl:px-7 2xl:text-2xl py-2 2xl:py-4 ml-5 tracking-wide hover:bg-gray-600 active:scale-95 transition">Register</button>
       </nav>
       <Dropdown/>
     </header>
