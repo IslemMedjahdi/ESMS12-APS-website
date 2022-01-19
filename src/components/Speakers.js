@@ -49,8 +49,8 @@ const Speakers = () => {
         <div className="flex flex-col sm:flex-row mt-7 space-y-8 items-center space-x-0 sm:space-x-36">
           <img
             className="w-56 h-56 2xl:w-72 2xl:h-72 outline-2 outline outline-white outline-offset-4  object-cover"
+            alt={speakers[speaker].name}
             src={speakers[speaker].image}
-            alt={speaker.name}
           />
           <div className="flex flex-col items-center text-center text-4xl 2xl:text-6xl space-y-3">
             <p className="text-[#FBDA63] font-bold ">
