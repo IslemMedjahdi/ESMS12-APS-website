@@ -1,19 +1,33 @@
 import React, { useState } from "react";
-import image1 from "../assets/Riyadh-Baghdadi.jpg";
-import image2 from "../assets/Islem-Medjahdi.jpg";
-import image3 from "../assets/Nassreddine-Fliti.jpg";
-import image4 from "../assets/Abdou.jpeg";
 
 let speakers = [
-  { id: 1, name: "Riyadh Baghdadi", job: "Assistant Professor", image: image1 },
-  { id: 2, name: "Islem Medjahdi", job: "Front End Developer", image: image2 },
+  {
+    id: 1,
+    name: "Riyadh Baghdadi",
+    job: "Assistant Professor",
+    image:
+      "https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h:600/Riyadh-Baghdadi_OGqwrCeUe.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1642627176221",
+  },
+  {
+    id: 2,
+    name: "Islem Medjahdi",
+    job: "Front End Developer",
+    image:
+      "https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h-600/Islem-Medjahdi_hDqk-hGJh.jpg",
+  },
   {
     id: 3,
     name: "Nassreddine Fliti",
     job: "Multimedia Responsible",
-    image: image3,
+    image: 'https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h-600/Nassreddine-Fliti_EpTaW5fo0.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1642627182656',
   },
-  { id: 4, name: "Abdelkader Zedek", job: "ESMS12 Mentor", image: image4 },
+  {
+    id: 4,
+    name: "Abdelkader Zedek",
+    job: "ESMS12 Mentor",
+    image:
+      "https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h:600/Abdou_GfCFfnh9ShS.jpeg",
+  },
 ];
 
 const Speakers = () => {
