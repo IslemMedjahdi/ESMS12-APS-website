@@ -33,7 +33,7 @@ const Agenda = () => {
                 <span className="text-[#FBDA63]">10</span>am-
                 <span className="text-[#FBDA63]">1</span>pm
               </span>{" "}
-              Workshop01
+              Conference
             </p>
             <p className="text-white">
               <span className="mr-2">
@@ -47,7 +47,7 @@ const Agenda = () => {
                 <span className="text-[#FBDA63]">2</span>pm-
                 <span className="text-[#FBDA63]">5</span>pm
               </span>{" "}
-              Workshop02
+              Workshop
             </p>
           </div>
         </div>
@@ -66,58 +66,16 @@ const Agenda = () => {
             <p className="text-white">
               <span className="mr-2">
                 <span className="text-[#FBDA63]">9</span>am-
-                <span className="text-[#FBDA63]">10</span>am
+                <span className="text-[#FBDA63]">10.30</span>am
               </span>{" "}
-              Opening Cermony
+              Workshop-01
             </p>
             <p className="text-white">
               <span className="mr-2">
-                <span className="text-[#FBDA63]">10</span>am-
+                <span className="text-[#FBDA63]">10.30</span>am-
                 <span className="text-[#FBDA63]">1</span>pm
               </span>{" "}
-              Workshop01
-            </p>
-            <p className="text-white">
-              <span className="mr-2">
-                <span className="text-[#FBDA63]">1</span>pm-
-                <span className="text-[#FBDA63]">2</span>pm
-              </span>{" "}
-              Lunch-Break
-            </p>
-            <p className="text-white">
-              <span className="mr-2">
-                <span className="text-[#FBDA63]">2</span>pm-
-                <span className="text-[#FBDA63]">5</span>pm
-              </span>{" "}
-              Workshop02
-            </p>
-          </div>
-        </div>
-        <div className="mt-10">
-          <p className="text-[#BF1E1A] text-xl 2xl:text-3xl translate-y-2 font-bold text-center">
-            Day03
-          </p>
-          <div className="border-2 border-dashed p-3 2xl:p-10 2xl:text-xl 2xl:space-y-1">
-            <p className="text-white">
-              <span className="mr-2">
-                <span className="text-[#FBDA63]">8</span>am-
-                <span className="text-[#FBDA63]">9</span>am
-              </span>{" "}
-              Checking
-            </p>
-            <p className="text-white">
-              <span className="mr-2">
-                <span className="text-[#FBDA63]">9</span>am-
-                <span className="text-[#FBDA63]">10</span>am
-              </span>{" "}
-              Opening Cermony
-            </p>
-            <p className="text-white">
-              <span className="mr-2">
-                <span className="text-[#FBDA63]">10</span>am-
-                <span className="text-[#FBDA63]">1</span>pm
-              </span>{" "}
-              Workshop01
+              Conference
             </p>
             <p className="text-white">
               <span className="mr-2">

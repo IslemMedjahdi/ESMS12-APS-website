@@ -13,9 +13,9 @@ const Home = () => {
             THE ART OF PROBLEM SOLVING
           </h1>
         </div>
-        <button className="bg-gray-900 mt-5 active:scale-95 text-[#FBDA63] font-bold px-6 2xl:px-14 2xl:text-2xl py-3 2xl:py-6 tracking-wide hover:bg-gray-800 transition">
+        <a href="https://form-aps-register.netlify.app/" target="_blank" rel="noreferrer" className="bg-gray-900 mt-5 active:scale-95 text-[#FBDA63] font-bold px-6 2xl:px-14 2xl:text-2xl py-3 2xl:py-6 tracking-wide hover:bg-gray-800 transition">
           Register
-        </button>
+        </a>
       </div>
       <div className="lines -z-10">
           <div className="line"></div>
