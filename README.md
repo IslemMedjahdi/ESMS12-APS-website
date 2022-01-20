@@ -25,7 +25,6 @@
 
 	- You can access a page that does not exist to see an error page
 		like this one : https://aps-esms12.netlify.app/random-text
-	- The register button doesn't work yet.
 
 
 ### What is APS : 
