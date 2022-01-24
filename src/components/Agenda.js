@@ -58,8 +58,8 @@ const Agenda = () => {
             </p>
             <p className="text-white">
               <span className="mr-2">
-                <span className="text-[#FBDA63]">03:00</span>pm-
-                <span className="text-[#FBDA63]">03.30</span>pm
+                <span className="text-[#FBDA63]">03:30</span>pm-
+                <span className="text-[#FBDA63]">05.30</span>pm
               </span>{" "}
               Graph Theory Workshop
             </p>
