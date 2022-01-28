@@ -10,23 +10,23 @@ let speakers = [
   },
   {
     id: 2,
-    name: "Islem Medjahdi",
-    job: "Front End Developer",
+    name: "Merouane Abadli",
+    job: "Automatic Control Engineer",
     image:
-      "https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h-600/Islem-Medjahdi_hDqk-hGJh.jpg",
+      "https://ik.imagekit.io/aaozuxr3pcx/tr:w-600,h:600/image_QsE1b-AZB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643407615305",
   },
   {
     id: 3,
-    name: "Nassreddine Fliti",
-    job: "Multimedia Responsible",
-    image: 'https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h-600/Nassreddine-Fliti_EpTaW5fo0.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1642627182656',
+    name: "Chems Eddine Belkheir",
+    job: "Information Systems Engineer",
+    image: 'https://ik.imagekit.io/aaozuxr3pcx/tr:w-600,h:600/image2_z4UNjJdCCSx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643407615941',
   },
   {
     id: 4,
-    name: "Abdelkader Zedek",
-    job: "ESMS12 Mentor",
+    name: "Sid Ahmed Hamani",
+    job: "Information Systems Engineer",
     image:
-      "https://ik.imagekit.io/k8qyclrnktl5/tr:w-600,h:600/Abdou_GfCFfnh9ShS.jpeg",
+      "https://ik.imagekit.io/aaozuxr3pcx/tr:w-600,h:600/image__1__xl4KjQHq-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643407615783",
   },
 ];
 
@@ -66,11 +66,11 @@ const Speakers = () => {
             alt={speakers[speaker].name}
             src={speakers[speaker].image}
           />
-          <div className="flex flex-col items-center text-center text-4xl 2xl:text-6xl space-y-3">
+          <div className="flex flex-col items-center text-center text-[2rem] 2xl:text-6xl space-y-3">
             <p className="text-[#FBDA63] font-bold sm:max-w-xs">
               {speakers[speaker].name}
             </p>
-            <p className="text-white font-bold sm:max-w-xs">{speakers[speaker].job}</p>
+            <p className="text-white font-bold  sm:max-w-xs">{speakers[speaker].job}</p>
           </div>
         </div>
         <svg
