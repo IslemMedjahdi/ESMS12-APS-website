@@ -17,13 +17,13 @@ let speakers = [
   },
   {
     id: 3,
-    name: "Chems Eddine Belkheir",
+    name: "Sid Ahmed Hamani",
     job: "Information Systems Engineer",
     image: 'https://ik.imagekit.io/aaozuxr3pcx/tr:w-600,h:600/image2_z4UNjJdCCSx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643407615941',
   },
   {
     id: 4,
-    name: "Sid Ahmed Hamani",
+    name: "Chems Eddine Belkheir ",
     job: "Information Systems Engineer",
     image:
       "https://ik.imagekit.io/aaozuxr3pcx/tr:w-600,h:600/image__1__xl4KjQHq-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643407615783",
